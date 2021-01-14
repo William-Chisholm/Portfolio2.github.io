@@ -239,12 +239,6 @@ p{
     display: none;
   }
 
-  .content{
-    margin-top: 90px;
-    margin: 10px 40px 0 0;
-    transition: 0s;
-  }
-
   .active{
     display: block;
   }
