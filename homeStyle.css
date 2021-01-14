@@ -230,6 +230,10 @@ footer p{
 
 @media screen and (max-width: 1284px){
 
+  * {
+    box-sizing: border-box;
+  }
+
   html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -259,6 +263,8 @@ footer p{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
+    width: 100%;
+    float: left;
   }
 
   /*.hero-content{
