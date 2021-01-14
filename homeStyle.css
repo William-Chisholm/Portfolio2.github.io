@@ -260,11 +260,11 @@ footer p{
   }
 
   .content{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1em;
     width: 100%;
-    float: left;
+    border: 1px solid #1571da;
+    margin-top: 90px;
+    margin-left: 0;
+    overflow-x: hidden;
   }
 
   /*.hero-content{
