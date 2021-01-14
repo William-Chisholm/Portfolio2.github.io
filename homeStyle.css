@@ -261,7 +261,7 @@ footer p{
     padding-top: 10px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 1em;
+    grid-gap: .25em;
   }
 
   .active{
