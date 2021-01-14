@@ -231,6 +231,10 @@ footer p{
 
 @media screen and (max-width: 1284px){
 
+  body{
+    overflow-x: hidden
+  }
+
   .sidebar{
     display: block;
     background: #1571da;
