@@ -256,7 +256,7 @@ footer p{
     display: none;
   }
 
-  .content{
+  /*.content{
     margin-top: 90px;
     display: grid;
     grid-template-columns: 1fr;
@@ -285,5 +285,5 @@ footer p{
   img{
     border-radius: 30px;
     margin-right: 25px;
-  }
+  }*/
 }
