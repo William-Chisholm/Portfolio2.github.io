@@ -259,6 +259,7 @@ footer p{
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1em;
+    margin-right: 15px;
   }
 
   .active{
@@ -274,5 +275,10 @@ footer p{
 
   .action-btn{
     margin-left: 115px;
+  }
+  
+  img{
+    border-radius: 30px;
+    margin-left: 15px;
   }
 }

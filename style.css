@@ -214,72 +214,79 @@ p{
 
 @media screen and (max-width: 1284px){
 
-body{
-  overflow-x: hidden
-}
+  body{
+    overflow-x: hidden
+  }
 
-.sidebar{
-  display: block;
-  background: #1571da;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
-  font-size: 12px;
-}
+  .sidebar{
+    display: block;
+    background: #1571da;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    font-size: 12px;
+  }
 
-.sidebar .current{
-  background: black;
-}
+  .sidebar .current{
+    background: black;
+  }
 
-#sidebar_btn{
-  display: none;
-}
+  #sidebar_btn{
+    display: none;
+  }
 
-.content{
-  margin-left: 0;
-  margin-top: 90px;
-  padding: 10px 40px;
-  transition: 0s;
-}
+  .content{
+    margin-left: 0;
+    margin-top: 90px;
+    padding: 10px 40px;
+    transition: 0s;
+  }
 
-.active{
-  display: block;
-}
+  .active{
+    display: block;
+  }
 
-.content .card{
-  display: grid;
-  width: 300px;
-}
+  .content .card{
+    display: grid;
+    width: 300px;
+  }
 
-.content{
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1em;
-  justify-content: center;
-}
+  .content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1em;
+    justify-content: center;
+    margin-right: 15px;
+  }
 
-.content .card p{
-  color: white;
-  padding: 10px;
-  margin-bottom: 10px;
-  font-size: 12px;
-  opacity: 0.8;
-}
+  .content .card p{
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    opacity: 0.8;
+  }
 
-.card{
-  margin-left: 50px;
-  background: #1b1b1b;
-  border: 5px inset #1571da;
-  border-radius: 50px;
-  height: auto;
-}
+  .card{
+    margin-left: 50px;
+    background: #1b1b1b;
+    border: 5px inset #1571da;
+    border-radius: 50px;
+    height: auto;
+  }
 
-.card:nth-child(odd){
-  background: #333333;
-  border: 5px inset #1b6bc7;
-  border-radius: 50px;
-}
+  .card:nth-child(odd){
+    background: #333333;
+    border: 5px inset #1b6bc7;
+    border-radius: 50px;
+  }
+
+  img{
+    border-radius: 30px;
+    margin-left: 15px;
+  }
+
 }
