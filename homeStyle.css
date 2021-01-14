@@ -257,10 +257,13 @@ footer p{
   }
 
   .content{
-    margin: 0 10px 0 0;
-    padding-top: 10px;
+    margin-top: 90px;
     display: grid;
     grid-template-columns: 1fr;
+  }
+
+  .hero-content{
+    text-align: center;
   }
 
   .active{
