@@ -254,7 +254,7 @@ footer p{
   .content{
     margin-left: 15px;
     margin-top: 90px;
-    padding: 10px 10px 0 10px;
+    padding-top: 10px;
     transition: 0s;
     display: grid;
     grid-template-columns: 1fr;
