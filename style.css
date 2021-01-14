@@ -239,9 +239,8 @@ p{
   }
 
   .content{
-    margin-left: 15px;
     margin-top: 90px;
-    padding: 10px 40px;
+    padding: 10px 40px 0 40px;
     transition: 0s;
   }
 
