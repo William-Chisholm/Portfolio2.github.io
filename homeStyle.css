@@ -256,13 +256,12 @@ footer p{
     display: none;
   }
 
-  /*.content{
-    margin-top: 90px;
+  .content{
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  .hero-content{
+  /*.hero-content{
     text-align: center;
     padding-right: 10px;
   }
