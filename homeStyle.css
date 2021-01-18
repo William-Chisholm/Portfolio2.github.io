@@ -121,18 +121,6 @@ body{
     grid-gap: 1em;
   }
 
-  /*.content .card p{
-    color: white;
-    background: #1b1b1b;
-    padding: 15px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    opacity: 0.8;
-    border: 5px inset #1571da;
-    border-radius: 50px;
-    text-align: center;
-  }*/
-
   img{
     border-radius: 30px;
   }
@@ -236,7 +224,7 @@ footer p{
 
   html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   .sidebar{
@@ -259,6 +247,10 @@ footer p{
     display: none;
   }
 
+  .spinEffect{
+    transform: rotate(90deg);
+  }
+
   .content{
     width: 100%;
     margin-top: 90px;
@@ -273,29 +265,4 @@ footer p{
   .action-btn{
     margin-left: 70px;
   }
-
-  /*.hero-content{
-    text-align: center;
-    padding-right: 10px;
-  }
-
-  .active{
-    display: block;
-  }
-
-  .hero img{
-    width: 300px;
-    border-radius: 150px;
-    transition: .5s ease-in;
-    padding: 10px 30px 10px 40px;
-  }
-
-  .action-btn{
-    margin-left: 115px;
-  }
-
-  img{
-    border-radius: 30px;
-    margin-right: 25px;
-  }*/
 }
