@@ -109,11 +109,6 @@ label #sidebar_btn:hover{
   display: none;
 }
 
-.content .card{
-  display: grid;
-  width: auto;
-}
-
 .content{
   display: grid;
   grid-template-columns: 1fr;
@@ -129,6 +124,8 @@ label #sidebar_btn:hover{
 }
 
 .card{
+  display: grid;
+  width: auto;
   background: #1b1b1b;
   border: 5px inset #1571da;
   border-radius: 50px;
@@ -224,7 +221,7 @@ p{
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    font-size: 14dpx;
+    font-size: 14px;
   }
 
   .sidebar .current{
