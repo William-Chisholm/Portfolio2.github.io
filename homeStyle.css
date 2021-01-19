@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: #000000;
+    background: #141414;
     font-family: 'Nunito', sans-serif;
   }
   
@@ -31,7 +31,7 @@ body{
   }
 
   .sidebar .current{
-    background: black;
+    background: #141414;
   }
   
   .sidebar a{
@@ -59,7 +59,7 @@ body{
     position: fixed;
     top: 0;
     color: #fff;
-    background-color: black;
+    background-color: #141414;
     cursor: pointer;
     font-size: 20px;
     margin-left: 190px;
@@ -99,7 +99,7 @@ body{
     padding: 0 250px 0 250px; /*Top Right Bottom Left*/
     margin-left: 100px;
     color: white;
-    background-color: black;
+    background-color:#141414;
     background-position: center;
     background-size: cover;
     transition: 0.5s;
@@ -177,18 +177,20 @@ body{
 .action-btn{
   display: inline-block;
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 700;
-  background: #1571da;
+  border-radius: 50px;
+  background: #141414;
+  box-shadow:  14px 14px 28px #0c0c0c,
+             -14px -14px 28px #1c1c1c;
   padding: 1em 2em;
-  border-radius: 40px;
   margin: 1em 0;
   transition: .5s;
   justify-content: center;
 }
 
 .action-btn:hover{
-  box-shadow: 0 10px 50px #1571da;
+  box-shadow: 0 10px 50px #141414;
   border-radius: 10px;
 }
 
@@ -258,7 +260,7 @@ footer p{
   }
 
   .sidebar .current{
-    background: rgb(0, 0, 0);
+    background: #141414;
   }
 
   #sidebar_btn{
