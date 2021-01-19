@@ -96,7 +96,7 @@ body{
   .content{
     width: (100% - 250px);
     margin-top: 60px;
-    padding: 0 250px 150px 250px; /*Top Right Bottom Left*/
+    padding: 0 250px 0 250px; /*Top Right Bottom Left*/
     margin-left: 100px;
     color: white;
     background-color: black;
@@ -269,7 +269,9 @@ footer p{
     width: 100%;
     margin-top: 90px;
     margin-left: 0;
+    padding-top: 0;
     padding-left: 0;
+    padding-bottom: 0;
     padding-right: 15px;
     text-align: center;
   }
