@@ -240,15 +240,14 @@ p{
     display: none;
   }
 
-  /*.content{
-    justify-content: center;
-  }*/
-
   .content{
     width: (100% - 250px);
-    padding: 0 250px 0 250px; /*Top Right Bottom Left*/
     margin-top: 90px;
     margin-left: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 15px;
     justify-content: center;
   }
 
