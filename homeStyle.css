@@ -8,6 +8,14 @@ body{
     font-family: 'Nunito', sans-serif;
   }
   
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+  .jPanelMenu, body {
+    overflow-x: initial;
+    }
+
   .sidebar{
       z-index: 1;
       top: 0;
@@ -94,7 +102,6 @@ body{
     background-color: black;
     background-position: center;
     background-size: cover;
-    height: 100vh;
     transition: 0.5s;
     justify-content: center;
   }
@@ -191,6 +198,8 @@ body{
 
 .footer ul{
   max-width: 640px;
+  margin-left: 50px;
+  padding: 0;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -257,7 +266,7 @@ footer p{
   .content{
     width: 100%;
     margin-top: 90px;
-    margin-left: 5px;
+    margin-left: 0;
     /*padding: 0 250px 150px 60px; /*Top Right Bottom Left*/
     text-align: center;
   }

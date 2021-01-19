@@ -5,6 +5,10 @@ body{
   font-family: "Roboto", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .sidebar{
   z-index: 1;
   top: 0;
