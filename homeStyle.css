@@ -72,7 +72,7 @@ body{
   }
   
   label #sidebar_btn:hover{
-    color: #1b1b1b;
+    color: #141414;
   }
 
   /*.spinEffect{
@@ -153,6 +153,8 @@ body{
   border-radius: 150px;
   float: right;
   transition: .5s ease-in;
+  box-shadow:  14px 14px 28px #0c0c0c,
+             -14px -14px 28px #1c1c1c;
 }
 
 .hero img:hover{
@@ -168,10 +170,15 @@ body{
 }
 
 .hero p{
+  padding: 20px;
   font-weight: 300;
   font-size: 1.5em;
   line-height: 1.8em;
   color: rgb(255, 255, 255);
+  border-radius: 50px;
+  background: #141414;
+  box-shadow:  14px 14px 28px #0c0c0c,
+             -14px -14px 28px #1c1c1c;
 }
 
 .action-btn{
@@ -185,17 +192,22 @@ body{
              -14px -14px 28px #1c1c1c;
   padding: 1em 2em;
   margin: 1em 0;
-  transition: .5s;
+  transition: ease-in-out .5s;
   justify-content: center;
 }
 
 .action-btn:hover{
   box-shadow: 0 10px 50px #141414;
-  border-radius: 10px;
+  border-radius: 60px;
 }
 
 .footer{
   padding: 25px 0 25px 0; /*Top Right Bottom Left*/
+  margin-bottom: 40px;
+  border-radius: 50px;
+  background: #141414;
+  box-shadow:  14px 14px 28px #0c0c0c,
+             -14px -14px 28px #1c1c1c;
 }
 
 .footer ul{
