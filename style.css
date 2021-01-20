@@ -99,6 +99,7 @@ label #sidebar_btn:hover{
 
 .hero p{
   padding: 20px;
+  margin: 10px;
   font-weight: 300;
   font-size: 1.5em;
   line-height: 1.8em;
@@ -162,7 +163,7 @@ img:hover{
 
 .footer{
   padding: 25px 0 25px 0; /*Top Right Bottom Left*/
-  margin-bottom: 40px;
+  margin: 10px 10px 40px 10px;
   border-radius: 50px;
   background: #141414;
   box-shadow:  14px 14px 28px #0c0c0c,
