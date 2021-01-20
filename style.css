@@ -99,7 +99,7 @@ label #sidebar_btn:hover{
 
 .hero p{
   padding: 20px;
-  margin: 10px;
+  margin: 10px 20px 40px 10px;
   font-weight: 300;
   font-size: 1.5em;
   line-height: 1.8em;
@@ -135,7 +135,6 @@ label #sidebar_btn:hover{
 .content .card p{
   color: white;
   padding: 10px;
-  margin-bottom: 10px;
   font-size: 12px;
   opacity: 0.8;
 }
@@ -145,6 +144,7 @@ label #sidebar_btn:hover{
   width: auto;
   height: auto;
   border-radius: 50px;
+  margin: 10px 20px 10px 10px;
   background: #141414;
   box-shadow:  14px 14px 28px #0c0c0c,
              -14px -14px 28px #1c1c1c;
@@ -163,7 +163,7 @@ img:hover{
 
 .footer{
   padding: 25px 0 25px 0; /*Top Right Bottom Left*/
-  margin: 10px 10px 40px 10px;
+  margin: 10px 20px 40px 10px;
   border-radius: 50px;
   background: #141414;
   box-shadow:  14px 14px 28px #0c0c0c,
