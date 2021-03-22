@@ -150,24 +150,17 @@ label #sidebar_btn:hover{
              -14px -14px 28px #1c1c1c;
 }
 
-img{
-  border-radius: 30px;
-}
+
 
 img:hover{
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
-  border-radius: 40px;
 }
 
 .footer{
   padding: 25px 0 25px 0; /*Top Right Bottom Left*/
   margin: 10px 20px 40px 10px;
-  border-radius: 50px;
-  background: #141414;
-  box-shadow:  14px 14px 28px #0c0c0c,
-             -14px -14px 28px #1c1c1c;
 }
 
 .footer ul{
@@ -198,6 +191,7 @@ footer p{
   width: 50px;
   background: rgb(255, 255, 255);
   transition: ease-out 1s;
+  border-radius: 30px;
 }
 
 h1{

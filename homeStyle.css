@@ -208,8 +208,6 @@ body{
   margin-bottom: 40px;
   border-radius: 50px;
   background: #141414;
-  box-shadow:  14px 14px 28px #0c0c0c,
-             -14px -14px 28px #1c1c1c;
 }
 
 .footer ul{
