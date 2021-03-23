@@ -28,6 +28,9 @@
   #will{
     border-radius: 500px;
   }
+  .contact__container{
+    justify-items: center;
+  }
 }
 
 /*===== Margins =====*/
@@ -136,6 +139,7 @@ body{
 }
 @media screen and (max-width: 768px){
   #will{
+    width: 250px;
     border-radius: 500px;
     padding-right: 15px;
   }
@@ -146,7 +150,7 @@ body{
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: rgb(12, 72, 238);
     transition: .5s;
   }
 }
@@ -319,8 +323,7 @@ body{
 
 /* ===== WORK =====*/
 .work__container{
-  row-gap: 2rem;
-  margin-bottom: -175px;
+  row-gap: 2rem;  
 }
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
