@@ -25,6 +25,9 @@
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
   }
+  #will{
+    border-radius: 500px;
+  }
 }
 
 /*===== Margins =====*/
@@ -132,6 +135,10 @@ body{
   font-weight: var(--font-semi);
 }
 @media screen and (max-width: 768px){
+  #will{
+    border-radius: 500px;
+    padding-right: 15px;
+  }
   .nav__menu{
     position: fixed;
     top: var(--header-height);
@@ -424,6 +431,7 @@ body{
   .home__img{
     width: 457px;
     bottom: 15%;
+    border-radius: 100%;
   }
 
   .about__container, .skills__container{
@@ -445,7 +453,6 @@ body{
   .contact__container{
     justify-items: center;
   }
-
   #will{
     border-radius: 500px;
   }
@@ -458,5 +465,8 @@ body{
   }
   .home__img{
     right: 10%;
+  }
+  #will{
+    border-radius: 500px;
   }
 }
