@@ -138,6 +138,7 @@ body{
   #will{
     border-radius: 500px;
     padding-right: 15px;
+    visibility: hidden;
   }
   .nav__menu{
     position: fixed;
