@@ -320,7 +320,7 @@ body{
 
 /* ===== WORK =====*/
 .work__container{
-  row-gap: 2rem;
+  row-gap: 1rem;
 }
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
@@ -332,6 +332,28 @@ body{
   cursor: pointer;
 }
 .work__img img:hover{
+  transform: scale(1.1);
+}
+.work__text{
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+.work__container2{
+  row-gap: 1rem;
+}
+.work__img2{
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  border-radius: .5rem;
+  overflow: hidden;
+  width: 320px;
+  height: 31  0px;
+  margin: 0 auto;
+}
+.work__img2 img{
+  transition: 1s;
+  cursor: pointer;
+}
+.work__img2 img:hover{
   transform: scale(1.1);
 }
 
