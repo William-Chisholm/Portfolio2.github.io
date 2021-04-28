@@ -138,7 +138,6 @@ body{
   #will{
     border-radius: 500px;
     padding-right: 15px;
-    visibility: hidden;
   }
   .nav__menu{
     position: fixed;
@@ -458,9 +457,6 @@ body{
   .contact__container{
     justify-items: center;
   }
-  #will{
-    border-radius: 500px;
-  }
 }
 
 @media screen and (min-width: 1024px){
@@ -474,4 +470,15 @@ body{
   #will{
     border-radius: 500px;
   }
+}
+
+@media screen and (max-width: 768px){
+
+  .home__img{
+    right: 10%;
+    width: 200px;
+    bottom: 15%;
+    border-radius: 100%;
+  }
+
 }
