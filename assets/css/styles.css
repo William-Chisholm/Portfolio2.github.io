@@ -564,7 +564,7 @@ input:checked + .slider:before {
     right: 10%;
     width: 200px;
     bottom: 15%;
-    height: 300px;
+    height: 275px;
     border-radius: 100%;
   }
 
